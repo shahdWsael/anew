@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyFirstProject</string>
+    <string name="welcome_to_mathlearning_app">Welcome to MathLearning App</string>
+</resources>

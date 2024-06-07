@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btnLearn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    tools:context=".WelcomeActivity">
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="279dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginLeft="110dp"
+      android:layout_marginTop="300dp"
+      android:layout_marginRight="100dp"
+      android:text="Welcome  to Multiply Masters"
+      android:textSize="20sp"
+      android:textStyle="bold|italic" />
+
+  <Button
+      android:id="@+id/btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:text="Let's Learn Multiplication" />
+
+  <Button
+      android:id="@+id/btnQuiz"
+      android:layout_width="207dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:text="Quiz" />
+</LinearLayout>
